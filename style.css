@@ -1,0 +1,409 @@
+* {
+    padding: 0%;
+    padding-left: 0.2rem;
+    margin: 0%;
+}
+.Home h2 {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(245, 245, 248);
+  padding-left: 35%;
+}
+.gallery {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+.gallery h2 {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(238, 68, 165);
+  padding-right: 50%;
+}
+
+.photo-card {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    flex: 1 1 500px;
+    text-align: center;
+    transition: transform
+    0.3s ease-in-out;
+}
+
+.photo-card img{
+    height: 30%;
+    width: 30%;
+}
+
+.photo {
+    height: 30%;
+    width: 100%;
+    margin: 1px;
+    border: 2px solid rgb(5, 5, 186);
+    padding: 2px;
+    background-color: rgb(246, 224, 201);
+}
+ .photo a {
+    font-size: xx-large;
+    color: black;
+    padding-right: 15%;
+ }
+
+ .photo img {
+    height: 55vh;
+    width: 50%;
+ }
+
+.photo h2 {
+    color: rgb(18, 162, 246)
+}
+
+.Home {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    background-color: black;
+    color: #f8f5f5;
+}
+
+.container {
+    height: 900px;
+    width: 400px;
+    background-image: linear-gradient(#1e6b30, #308d46);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-bottom-left-radius: 180px;
+    border-top-right-radius: 150px;
+}
+ 
+.main-content {
+    height: 235px;
+    background-color: #1b9236;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 80px;
+    border-top: #1e6b30;
+}
+ 
+.text {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: aliceblue;
+    color: aliceblue;
+}
+ 
+.course {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+ 
+.centre-content {
+    height: 180px;
+    margin: -70px 30px 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 0.5px;
+    background-image: linear-gradient(#1e6b30, #308d46);
+}
+ 
+.centre-content-h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+}
+ 
+.price {
+    font-size: 60px;
+    margin-left: 5px;
+    bottom: 15px;
+    position: relative;
+}
+ 
+.pay-now-btn {
+    cursor: pointer;
+    color: #fff;
+    height: 50px;
+    width: 290px;
+    border: none;
+    margin: 5px 30px;
+    background-color: rgb(71, 177, 61);
+    position: relative;
+}
+ 
+.card-details {
+    background: rgb(8, 49, 14);
+    color: rgb(225, 223, 233);
+    margin: 10px 30px;
+    padding: 10px;
+}
+ 
+.card-details p {
+    font-size: 15px;
+}
+ 
+.card-details label {
+    font-size: 15px;
+    line-height: 35px;
+}
+ 
+.submit-now-btn {
+    cursor: pointer;
+    color: #fff;
+    height: 30px;
+    width: 240px;
+    border: none;
+    margin: 5px 30px;
+    background-color: rgb(71, 177, 61);
+}
+
+.feedback {
+    background-color: #fdfafa;
+    color: rgb(36, 36, 232);
+    border: 2px solid black;
+    font-size: 2rem;
+  }
+
+  .feedback1 {
+    background-color: rgb(16, 36, 218);
+    color: aliceblue;
+    font-size: 1.5rem;
+  }
+
+  .background1 {
+    background-color: rgb(19, 175, 219);
+    color: white;
+    }
+
+
+  #inputTask {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #141313;
+    box-sizing: border-box;
+  }
+  
+  #inputTask:focus {
+    outline: none;
+    border-color: #160af3;
+  }
+  
+  #error-msg {
+    font-size: .80rem;
+    color: red;
+  }
+  
+  #addTaskButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #079209;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #addTaskButton:hover {
+    background-color: #8676ee;
+  }
+
+  #inputTask1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #141313;
+    box-sizing: border-box;
+  }
+  
+  #inputTask1:focus {
+    outline: none;
+    border-color: #160af3;
+  }
+
+  #error-msg1 {
+    font-size: .80rem;
+    color: red;
+  }
+
+  #addTaskButton1 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #079209;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  #addTaskButton1:hover {
+    background-color: #8676ee;
+  }
+
+
+  #ul-el {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .taskItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .taskText {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: rgb(115, 188, 248);
+  }
+  
+  .removeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .removeButton:hover {
+    color: darkred;
+  }
+  
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .cart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+  .cart h2 {
+    text-align: center;
+    font-size: medium;
+  }
+  
+ .foot {
+    display: flex;
+    column-gap: 80%;
+ }
+
+ .foot1 {
+    display: flex;
+    row-gap: 40%;
+    column-gap: 35%;
+ }
+  
+
+
+.calculator {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+}
+
+#sum-el {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00008b;
+  margin-top: 20px;
+}
+
+button {
+  color: blue;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.1rem;
+}
+
+#num1-el,
+#num2-el {
+    width: 20vh;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgb(195, 229, 243);
+    align-content: center;
+  
+}
+
+.Add-Cart {
+  background-color: rgb(249, 190, 221);
+}
+
+.navbar {
+  margin: 0;
+  padding: 1.5rem;
+  width: 100%;
+  top: 0;
+  display: flex;
+  font-size: xx-large;
+  vertical-align: top;
+  gap: 0.2rem;
+  background-color: blue;
+  position: fixed;
+}
+
+.navbar-link {
+display: grid;
+list-style-type: none;
+}
+
+.navbar-link a {
+ text-decoration: none;
+ color: #fff;
+ font-size: 0.8rem;
+ padding-right: 50px;
+}
+
+.navbar-link a:hover {
+ background-color: rgb(2, 87, 24);
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+
+
+
+
+
+
